@@ -14,7 +14,6 @@ const App = () => {
     <div>
       <Header/>
       <Hero/>
-      <Brands/>
       <Apropos/>
       <Skills/>
       <Portfolio/>

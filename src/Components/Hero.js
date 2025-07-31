@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Nabil from '../assets/img/logo2.svg';
+import CV from '../assets/img/CV.pdf';
 
 const Hero = () => {
   return (
@@ -10,19 +11,17 @@ const Hero = () => {
       <div className='container mx-auto'>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <p className='text-lg text-accent mb-[22px]'>Nabil Mahel</p>
+            <p className='text-lg text-accent mb-2'>{/* Nabil Mahel*/}</p>
             <h1 className='text-4x1 leading-[44px] md:text-5lx md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-              Web Developpeur
+              Web Developer & Data/IA Enthusiast
             </h1>
-            <Link 
-              to='contact' 
-              smooth={true} 
-              duration={500} 
-              offset={-70} 
-              className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer'
+            <a
+              href={CV} 
+              download
+              className='btn btn-md bg-accent hover:bg-accent-hover mt-2 md:btn-lg transition-all cursor-pointer'
             >
-              Contactez-moi
-            </Link>
+              Télecharger le CV
+            </a>
           </div>
           <div className='hidden lg:flex flex-1 justify-end h-full'>
             <img src={Nabil} alt='' />
