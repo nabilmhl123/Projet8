@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "core-js": "^3.44.0",
     "emailjs-com": "^3.2.0",
     "lucide-react": "^0.535.0",
     "react": "^17.0.2",
