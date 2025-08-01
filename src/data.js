@@ -1,27 +1,7 @@
 //  icons
-import {
-  FiYoutube,
-  FiInstagram,
-  FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
-  FiMail,
-  FiMapPin,
-} from 'react-icons/fi';
 
-import {
-  FaLinkedin,
-  FaTwitter,
-  FaFacebook,
-  FaEnvelope,
-  FaPhone as FaPhoneAlt,
-  FaMapMarkerAlt,
-  FaBriefcase,
-  FaGraduationCap,
-} from 'react-icons/fa';
+
+
 
 
 // companies icons

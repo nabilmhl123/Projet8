@@ -28,7 +28,7 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between px-4 lg:px-6">
         {/* logo */}
-        <a href="#" className="hover:scale-105 transition-transform duration-300 group">
+        <a href="/" className="hover:scale-105 transition-transform duration-300 group" aria-label="Accueil">
           <p className="text-xl lg:text-2xl font-black text-gray-900 hover:text-transparent hover:bg-gradient-to-r hover:from-orange-500 hover:to-amber-500 hover:bg-clip-text transition-all duration-300">
             Nabil Mahel
           </p> 

@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
-import Nabil from '../assets/img/logo2.svg';
 import CV from '../assets/img/CV.pdf';
 
 const Hero = () => {
