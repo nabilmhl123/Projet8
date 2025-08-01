@@ -1,6 +1,5 @@
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
-import Brands from "./Components/Cv"
 import Apropos from "./Components/Apropos"
 import Skills from "./Components/Skills"
 import Portfolio from "./Components/Portfolio"

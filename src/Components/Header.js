@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Navbar from './Navbar'
 import Navmobile from "./Navmobile";
 import Socials from "./Socials";
-import LOGO from '../assets/img/logo2.svg';
 
 const Header = () => {
   const [bg, setBg] = useState(false);

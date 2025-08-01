@@ -20,7 +20,7 @@ const Apropos = () => {
                 <img
                   className="w-full h-full object-cover rounded-xl"
                   src={require("./../assets/img/tete.png") || "/placeholder.svg"}
-                  alt="Nabil Mahel - Profile Picture"
+                  alt="Nabil Mahel"
                 />
               </div>
 
