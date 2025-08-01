@@ -1,4 +1,7 @@
+
 //  icons
+import { FaLinkedin } from 'react-icons/fa';
+import { FiGithub, FiLayout, FiSettings, FiPenTool, FiTag, FiMail, FiMapPin } from 'react-icons/fi';
 
 
 
