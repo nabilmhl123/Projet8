@@ -45,6 +45,10 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nodejs.png';
 import SkillImg6 from './assets/img/skills/git.png';
 import SkillImg7 from './assets/img/skills/figma.png';
+import SkillImg8 from './assets/img/skills/pythonlogo.jpeg';
+import SkillImg9 from './assets/img/skills/Rlogo.jpeg';
+import SkillImg10 from './assets/img/skills/SQLlogo.png';
+import SkillImg11 from './assets/img/skills/BASHlogo.png'; 
 
 
 // navigation
@@ -55,7 +59,7 @@ export const navigation = [
   },
   {
     name: 'à propos',
-    href: 'à propos',
+    href: 'à-propos', // Anchor to match the id in Apropos.js
   },
   {
     name: 'portfolio',
@@ -75,19 +79,11 @@ export const navigation = [
 export const social = [
   {
     icon: <FaLinkedin />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.linkedin.com/in/nabil-mahel-a509a1377/',
   },
   {
     icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
-    href: '',
+    href: 'https://github.com/nabilmhl123',
   },
 ];
 
@@ -198,33 +194,45 @@ export const skills = [
   {
     image: SkillImg7,
   },
+  {
+    image: SkillImg8,
+  },
+  {
+    image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
+  },
+  {
+    image: SkillImg11,
+  },
 ];
 
 // services
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Front-end',
+    name: 'Alternance en Data & IA',
     description:
-      "Créez des interfaces utilisateurs modernes et réactives pour vos applications web avec mes services front-end. Je m'assure que votre site soit non seulement esthétique, mais aussi intuitif et facile à utiliser.",
+      "Je suis actuellement à la recherche d’une alternance dans le domaine de la Data et de l’Intelligence Artificielle dans le cadre de mon Bachelor. Mon objectif : appliquer mes connaissances en data science, machine learning et développement pour résoudre des problèmes concrets.",
   },
   {
     icon: <FiSettings />,
-    name: 'Back-end',
+    name: 'Compétences techniques',
     description:
-      "Développez une architecture back-end robuste et sécurisée pour supporter votre application web. Je m'occupe de la gestion des bases de données, de la création des API et de l'intégration des services pour garantir une performance optimale.",
+      "J’ai une double compétence en développement web (React, Node.js) et analyse de données (Python, Pandas, SQL, Jupyter). Je suis à l’aise autant avec les interfaces utilisateurs qu’avec la manipulation et la visualisation de données.",
   },
   {
     icon: <FiPenTool />,
-    name: 'Coach Agile',
+    name: 'Ce que je peux apporter',
     description:
-      "Améliorez votre efficacité et collaborez mieux avec une méthodologie agile adaptée à vos besoins. En tant que coach agile, je vous guide pour adopter les meilleures pratiques et transformer votre équipe en une unité performante et flexible.",
+      "Autonome, curieux et rigoureux, je m’intègre facilement à une équipe. J’apporte une vision technique polyvalente, capable de naviguer entre développement front, back, et data. Toujours motivé à apprendre et à m’adapter aux enjeux des entreprises.",
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Objectif de l’alternance',
     description:
-      "Augmentez votre visibilité en ligne et attirez plus de visiteurs grâce à mes services SEO. J'optimise votre site pour les moteurs de recherche, améliore votre contenu et vous aide à atteindre un meilleur classement.",
+      "Mettre en pratique mes apprentissages académiques dans un environnement réel, monter en compétence sur des projets data / IA, et contribuer activement à la réussite de votre entreprise.",
   },
 ];
 

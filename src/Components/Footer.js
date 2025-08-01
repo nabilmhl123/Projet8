@@ -4,7 +4,7 @@ import LOGO from '../assets/img/logo2.svg';
 
 const Footer = () => {
   return (
-    <footer className='bg-tertiary py-12'>
+    <footer className='bg-amber-50 py-12'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
           <div className='flex space-x-4'> {/* Added space-x-4 for spacing between social icons */}
