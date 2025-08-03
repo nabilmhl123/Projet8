@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../assets/img/CV.pdf';
+import CV from '../assets/img/Nabil Mahel BACHELOR 3 DATA & IA EN ALTERNANCE.pdf.pdf';
 
 const Hero = () => {
   return (
